@@ -245,4 +245,4 @@ def individualns_objectdetail_route(api,version,namespace,resource,objname):
         return jsonify(objects)
     
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0',port=8080)
